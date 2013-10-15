@@ -12,6 +12,8 @@ class RoadColorSegmentation(object):
     def __init__(self):
         
         # opening file
+        # This video was downloaded from
+        # https://www.dropbox.com/s/0rzcyxa6o7a72po/Video%20Sep%2005%2C%209%2046%2059%20AM.mov
         movieName = 'Video Sep 05, 9 46 59 AM.mov'
         self.vc = cv2.VideoCapture(movieName)
         if not self.vc.isOpened():
